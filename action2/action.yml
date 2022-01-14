@@ -1,0 +1,10 @@
+name: 'Action 2'
+description: 'Provide a description here'
+author: 'Your name or organization here'
+inputs:
+  action:
+    required: false
+    description: Action to be performed on the workspaces
+runs:
+  using: 'node12'
+  main: 'lib/index.js'
